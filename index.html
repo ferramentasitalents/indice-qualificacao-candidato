@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Índice de Qualificação de Candidatos</title>
+  <link href="https://ferramentasitalents.github.io/indice-qualificacao-candidato/style.css" rel="stylesheet" />
+  <script src="https://ferramentasitalents.github.io/indice-qualificacao-candidato/scripts.js"></script>
+</head>
+<body>
+  <div id="calculator">
+    <form onsubmit="calculateQualificationIndex(); return false;">
+      <label>Número de candidatos qualificados pela equipe técnica e departamento solicitante:</label>
+      <input type="number" id="num-candidatos-qualificados" required>
+      <br>
+      <br>
+      <label>Número total de candidatos que passaram pelo screening inicial:</label>
+      <input type="number" id="num-candidatos-screening" required>
+      <button type="submit">CALCULAR</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
 
